@@ -21,7 +21,7 @@ function reducer(state,action){
         case 'DELETE_ITEM':
             let newState2 = {...state};
             newState2['expenses'] = newState2.expenses.filter((item)=>{
-                if(item.id!==action.payload)
+                if(item.id!=action.payload)
                     return item;
             });
             console.log('new expenses is',newState2);
