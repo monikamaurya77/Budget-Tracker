@@ -1,4 +1,3 @@
-import "./App.css";
 import Budget from "./components/Budget";
 import Remaining from "./components/Remaining";
 import SpentSoFar from "./components/SpentSoFar";
